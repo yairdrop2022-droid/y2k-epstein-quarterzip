@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import logo from '../public/logo2.png'  // ton logo principal sur fond blanc
 
 function App() {
   const [currentImage, setCurrentImage] = useState(0)
@@ -33,7 +32,7 @@ function App() {
       <header className="bg-deep-navy text-white py-10">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <img 
-            src={logo} 
+            src="/logo2.png" 
             alt="Brand Logo" 
             className="h-28 w-auto mx-auto mb-6" 
           />
