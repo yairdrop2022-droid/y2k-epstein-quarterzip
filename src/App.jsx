@@ -27,23 +27,23 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-light-palm to-white">
-      {/* Header avec logo + titre */}
-      <header className="bg-deep-navy text-white py-10">
-        <div className="max-w-6xl mx-auto px-6 text-center">
-          <img 
-            src="/bleu.png" 
-            alt="Brand Logo" 
-            className="h-28 w-auto mx-auto mb-6" 
-          />
-          <h1 className="text-4xl md:text-5xl font-bold">
-            🌴 Y2K Retro Quarterzip Pullover Hoodie Epstein Embroidery Pattern 🌴
-          </h1>
-          <p className="text-2xl mt-4 font-semibold">
-            Jeffrey Epstein Quarter Zip – Vintage American Streetwear
-          </p>
-        </div>
-      </header>
+  <div className="min-h-screen bg-gradient-to-b from-light-palm to-white">
+    {/* Header sans logo + titre */}
+    <header className="bg-deep-navy text-white py-10">
+      <div className="max-w-6xl mx-auto px-6 text-center">
+        <h1 className="text-4xl md:text-5xl font-bold">
+          🌴 Y2K Retro Quarterzip Pullover Hoodie Epstein Embroidery Pattern 🌴
+        </h1>
+        <p className="text-2xl mt-4 font-semibold">
+          Jeffrey Epstein Quarter Zip – Vintage American Streetwear
+        </p>
+      </div>
+    </header>
+
+    {/* Le reste de ta page reste inchangé */}
+    {/* ... (carousel, bloc produit, avis, footer) */}
+  </div>
+)
 
       <main className="max-w-6xl mx-auto px-6 py-12">
         {/* Carousel + infos */}
