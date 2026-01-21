@@ -32,7 +32,7 @@ function App() {
       <header className="bg-deep-navy text-white py-10">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <img 
-            src="/#0a1f3a.png" 
+            src="/bleu.png" 
             alt="Brand Logo" 
             className="h-28 w-auto mx-auto mb-6" 
           />
