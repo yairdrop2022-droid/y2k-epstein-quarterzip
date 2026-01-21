@@ -27,23 +27,18 @@ function App() {
   }
 
   return (
-  <div className="min-h-screen bg-gradient-to-b from-light-palm to-white">
-    {/* Header sans logo + titre */}
-    <header className="bg-deep-navy text-white py-10">
-      <div className="max-w-6xl mx-auto px-6 text-center">
-        <h1 className="text-4xl md:text-5xl font-bold">
-          🌴 Y2K Retro Quarterzip Pullover Hoodie Epstein Embroidery Pattern 🌴
-        </h1>
-        <p className="text-2xl mt-4 font-semibold">
-          Jeffrey Epstein Quarter Zip – Vintage American Streetwear
-        </p>
-      </div>
-    </header>
-
-    {/* Le reste de ta page reste inchangé */}
-    {/* ... (carousel, bloc produit, avis, footer) */}
-  </div>
-)
+    <div className="min-h-screen bg-gradient-to-b from-light-palm to-white">
+      {/* Header sans logo + titre */}
+      <header className="bg-deep-navy text-white py-10">
+        <div className="max-w-6xl mx-auto px-6 text-center">
+          <h1 className="text-4xl md:text-5xl font-bold">
+            🌴 Y2K Retro Quarterzip Pullover Hoodie Epstein Embroidery Pattern 🌴
+          </h1>
+          <p className="text-2xl mt-4 font-semibold">
+            Jeffrey Epstein Quarter Zip – Vintage American Streetwear
+          </p>
+        </div>
+      </header>
 
       <main className="max-w-6xl mx-auto px-6 py-12">
         {/* Carousel + infos */}
@@ -117,10 +112,6 @@ function App() {
             >
               Buy Now
             </a>
-
-            <p className="text-sm text-gray-500 mt-4 text-center">
-              Affiliate link – We may earn a commission if you purchase (no extra cost to you)
-            </p>
           </div>
         </div>
 
