@@ -1,21 +1,21 @@
 import { useState } from 'react'
-import logo from '../public/logo2.png'
+import logo from '../public/logo2.png'  // ton logo principal sur fond blanc
 
 function App() {
   const [currentImage, setCurrentImage] = useState(0)
 
   const images = [
     {
-      url: "/beach-hoodie.jpg",
+      url: "/image_reference.jpg",
       alt: "Y2K Retro Quarterzip Epstein Hoodie on tropical beach"
     },
     {
-      url: "/closeup-embroidery.jpg",
-      alt: "Close-up of Epstein embroidery pattern on navy quarterzip hoodie"
+      url: "/image_reference_2.jpg",
+      alt: "Close-up Epstein embroidery pattern on navy quarterzip hoodie"
     },
     {
-      url: "/full-hoodie.jpg",
-      alt: "Full view of navy Y2K Retro Quarterzip Pullover Hoodie"
+      url: "/logoemb.jpg",
+      alt: "Detailed view of red embroidered JCE logo on navy hoodie"
     }
   ]
 
